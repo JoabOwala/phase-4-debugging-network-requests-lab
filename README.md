@@ -63,11 +63,19 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  run rails s
+  error 500 indicating missing create
+  update routes to accomodate create
+
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  update the show to get a single toy
+  update routes to accomodate show
+  add custom route to accomodate like functionality
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  add destroy route 
